@@ -1,0 +1,24 @@
+{
+  "productos": [
+    {
+      "nombre": "PESCADO",
+      "precio": 100,
+      "id": 2
+    },
+    {
+      "nombre": "LIMONES",
+      "precio": 100,
+      "id": 3
+    },
+    {
+      "nombre": "VERDURAS",
+      "precio": 100,
+      "id": 4
+    },
+    {
+      "nombre": "OLICAS",
+      "precio": 200,
+      "id": 6
+    }
+  ]
+}
