@@ -31,7 +31,7 @@ const Productos = () => {
          { error ? <p>Hubo un error</p> : null}
          {cargando ? <p>Cargando...</p> :null}
           
-          <table className="table" cellpadding="0" cellspacing="0" border="0">
+          <table className="table" cellPadding="0" cellSpacing="0" border="0">
             <thead className="thead">
               <tr className="titulos">
                  <th scope= "col">Nombre</th>

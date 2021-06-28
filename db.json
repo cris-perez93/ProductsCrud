@@ -2,7 +2,7 @@
   "productos": [
     {
       "nombre": "PESCADO",
-      "precio": 100,
+      "precio": "250",
       "id": 2
     },
     {

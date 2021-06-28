@@ -17,7 +17,7 @@ import {
 
 import clienteAxios from '../config/axios'
 import Swal from 'sweetalert2'
-import EditarProducto from '../Components/EditarProducto';
+
 
 // Crear nuevos productos
 
