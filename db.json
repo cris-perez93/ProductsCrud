@@ -2,7 +2,7 @@
   "productos": [
     {
       "nombre": "PESCADO",
-      "precio": "250",
+      "precio": "300",
       "id": 2
     },
     {
@@ -14,11 +14,6 @@
       "nombre": "VERDURAS",
       "precio": 100,
       "id": 4
-    },
-    {
-      "nombre": "OLICAS",
-      "precio": 200,
-      "id": 6
     }
   ]
 }
