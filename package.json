@@ -2,6 +2,7 @@
   "name": "redux",
   "version": "0.1.0",
   "private": true,
+  "main":"server.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -15,14 +16,18 @@
     "redux": "^4.1.0",
     "redux-thunk": "^2.3.0",
     "sweetalert2": "^11.0.18",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "json-server": "^0.16.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "keywords": [
+    "json-server,heroku, node, REST API"
+  ],
   "eslintConfig": {
     "extends": [
       "react-app",
