@@ -28,6 +28,13 @@ body{
   text-transform: uppercase;
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .nuevoproducto_container{
   
   color:black;
@@ -36,9 +43,9 @@ body{
   justify-content: center;
   align-items: center;
   width: 50%;
-  margin: auto;
   margin-top:20px;
   padding: 20px;
+  
   
 }
 
@@ -95,6 +102,7 @@ label{
   margin: auto;
   margin-top: 20px;
   text-transform: uppercase;
+  
 
 }
 
@@ -140,6 +148,7 @@ table{
   font-size: 16px;
   margin-left:5px;
   cursor: pointer;
+  
 
 
 }
@@ -185,6 +194,25 @@ td{
   padding: 5px;
   text-align: center;
   margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .nuevoproducto_container{
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .container_btn{
+    
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn_eliminar{
+    margin-top: 5px;
+  }
+
 }
 
 

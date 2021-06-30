@@ -52,6 +52,7 @@ const Producto = ({producto}) => {
             <td className="nombre_producto">{nombre}</td>
             <td><span>$ {precio}</span></td>
             <td>
+                <div className="container_btn">
                 <button 
                     className="editar"
                     type ="button"
@@ -63,6 +64,8 @@ const Producto = ({producto}) => {
                     className="btn_eliminar"
                     onClick={()=>confirmarEliminarProducto(id)}
                  >Eliminar</button>
+
+                 </div>
                
             </td>
         </tr>
